@@ -1,6 +1,6 @@
 # The DSA Architect's Library
 
-## 🏛️ About This Repository
+## About This Repository
 
 Welcome. This repository is my curated library of Data Structures and Algorithms, built from the `DSA RoadMap`[cite: 1]. It serves as a living project dedicated to designing, implementing, and documenting the "blueprints" of efficient software.
 
@@ -20,7 +20,7 @@ An **Algorithm** is a finite sequence of well-defined, computer-implementable in
 
 ---
 
-## 🗂️ Data Structures (The Blueprints)
+## Data Structures (The Blueprints)
 
 This section contains the fundamental building blocks for organizing and storing data.
 
@@ -130,7 +130,7 @@ This section contains the fundamental building blocks for organizing and storing
 
 ---
 
-## ⚙️ Algorithms (The Instructions)
+## Algorithms (The Instructions)
 
 This section focuses on the "recipes"—the procedures for solving common computational problems.
 
@@ -173,7 +173,7 @@ This section focuses on the "recipes"—the procedures for solving common comput
 
 ---
 
-## 🧠 Practice Platforms
+## Practice Platforms
 
 This code is practiced on, and often inspired by, problems from the following platforms:
 
