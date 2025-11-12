@@ -188,7 +188,7 @@ This code is practiced on, and often inspired by, problems from the following pl
 
 | Platform | Purpose |
 | :--- | :--- |
-| **LeetCode** | [cite_start]Interview-style DSA problems [cite: 16] |
-| **GeeksforGeLinks** | [cite_start]Concepts + practice problems [cite: 16] |
-| **CodeStudio** | [cite_start]Structured guided path [cite: 16] |
-| **HackerRank** | [cite_start]Easy problems & certifications [cite: 16] |
+| **LeetCode** | Interview-style DSA problems |
+| **GeeksforGeLinks** | Concepts + practice problems |
+| **CodeStudio** | Structured guided path |
+| **HackerRank** | Easy problems & certifications |
