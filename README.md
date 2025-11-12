@@ -29,6 +29,7 @@ This section contains the fundamental building blocks for organizing and storing
 * **Key Concepts (from my roadmap):** Prefix Sum, Sliding Window, Kadane’s Algorithm.
 * **Advantages:** Fast, constant-time `O(1)` access by index. Simple to implement.
 * **Common Complexities:**
+
 | Operation | Average Time | Worst Time | Space |
 | :--- | :--- | :--- | :--- |
 | Access | O(1) | O(1) | O(n) |
