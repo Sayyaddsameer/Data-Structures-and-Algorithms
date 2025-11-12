@@ -2,7 +2,7 @@
 
 ## About This Repository
 
-Welcome. This repository is my curated library of Data Structures and Algorithms, built from the `DSA RoadMap`[cite: 1]. It serves as a living project dedicated to designing, implementing, and documenting the "blueprints" of efficient software.
+Welcome. This repository is my curated library of Data Structures and Algorithms, built from the `DSA RoadMap`. It serves as a living project dedicated to designing, implementing, and documenting the "blueprints" of efficient software.
 
 My goal is to build a comprehensive reference that emphasizes code clarity, algorithmic efficiency, and practical application by solving problems from platforms like LeetCode and GeeksforGeeks.
 
@@ -36,7 +36,6 @@ This section contains the fundamental building blocks for organizing and storing
 | Search | O(n) | O(n) |
 | Insert | O(n) | O(n) |
 | Delete | O(n) | O(n) |
-* **Implementations:** **[View my Array solutions](./Data-Structures/Arrays/)**
 
 ### Strings
 * **Explanation:** A string is an immutable sequence of characters, often implemented as an array. Many string problems are extensions of array-based logic.
@@ -49,7 +48,6 @@ This section contains the fundamental building blocks for organizing and storing
 | Access | O(1) | O(n) |
 | Search (Substring) | O(n*m) |
 | Compare | O(n) |
-* **Implementations:** **[View my String solutions](./Data-Structures/Strings/)**
 
 ### Stack & Queue
 * **Explanation:**
@@ -64,7 +62,6 @@ This section contains the fundamental building blocks for organizing and storing
 | Push / Enqueue | O(1) | O(n) |
 | Pop / Dequeue | O(1) |
 | Peek / Front | O(1) |
-* **Implementations:** **[View my Stack & Queue solutions](./Data-Structures/Stacks-and-Queues/)**
 
 ### Linked List
 * **Explanation:** A linear data structure where elements (nodes) are not stored contiguously. Each node contains its data and a pointer to the next node in the sequence.
@@ -78,7 +75,6 @@ This section contains the fundamental building blocks for organizing and storing
 | Search | O(n) | O(n) |
 | Insert | O(1) | O(1) |
 | Delete | O(1) | O(1) |
-* **Implementations:** **[View my Linked List solutions](./Data-Structures/Linked-Lists/)**
 
 ### Hashing (HashMap / HashSet)
 * **Explanation:** Hashing uses a hash function to map keys to indices (buckets) in an array. This allows for extremely fast (near constant-time) lookups. `HashMap` (or `Dictionary` in Python) stores key-value pairs.
@@ -92,7 +88,6 @@ This section contains the fundamental building blocks for organizing and storing
 | Search | O(1) | O(n) |
 | Insert | O(1) | O(n) |
 | Delete | O(1) | O(n) |
-* **Implementations:** **[View my Hashing solutions](./Data-Structures/Hashing/)**
 
 ### Trees (Binary Tree / BST)
 * **Explanation:** A hierarchical data structure with a root node and child nodes. A **Binary Search Tree (BST)** is an ordered tree where the left child is smaller and the right child is larger than the parent.
@@ -106,7 +101,6 @@ This section contains the fundamental building blocks for organizing and storing
 | Search | O(log n) | O(n) |
 | Insert | O(log n) | O(n) |
 | Delete | O(log n) | O(n) |
-* **Implementations:** **[View my Tree solutions](./Data-Structures/Trees/)**
 
 ### Heap / Priority Queue
 * **Explanation:** A **Heap** is a special tree-based data structure that satisfies the heap property (e.g., in a Min-Heap, the parent is always smaller than its children). A **Priority Queue** is an abstract data type, often implemented using a heap, that provides efficient access to the max or min element.
@@ -119,7 +113,6 @@ This section contains the fundamental building blocks for organizing and storing
 | Peek | O(1) | O(n) |
 | Insert (Push) | O(log n) |
 | Extract (Pop) | O(log n) |
-* **Implementations:** **[View my Heap solutions](./Data-Structures/Heaps/)**
 
 ### Graphs
 * **Explanation:** A non-linear data structure consisting of nodes (vertices) and edges that connect them. Graphs are used to model networks, maps, and other complex relationships.
@@ -134,7 +127,6 @@ This section contains the fundamental building blocks for organizing and storing
 | Add Edge | O(1) |
 | Check Edge | O(V) |
 | BFS / DFS | O(V + E) |
-* **Implementations:** **[View my Graph solutions](./Data-Structures/Graphs/)**
 
 ---
 
@@ -155,9 +147,6 @@ This section focuses on the "recipes"—the procedures for solving common comput
 | **Binary Search** | O(1) | O(log n) | O(log n) | O(1) |
 | **Merge Sort** | O(n log n) | O(n log n) | O(n log n) | O(n) |
 | **Quick Sort** | O(n log n) | O(n log n) | O(n²) | O(log n) |
-* **Implementations:**
-    * **[View my Sorting solutions](./Algorithms/Sorting/)**
-    * **[View my Searching solutions](./Algorithms/Searching/)**
 
 ### Recursion & Backtracking
 * **Explanation:**
@@ -165,21 +154,17 @@ This section focuses on the "recipes"—the procedures for solving common comput
     * **Backtracking:** An algorithmic technique for solving problems by trying to build a solution incrementally, and "backtracking" (removing the last choice) as soon as it determines the current path cannot lead to a valid solution.
 * **Key Concepts (from my roadmap):** Subsets, Permutations, N-Queens.
 * **Advantages:** Can provide extremely simple and elegant solutions to complex problems (like tree traversals or permutations) that would be very difficult to write iteratively.
-* **Implementations:** **[View my Recursion & Backtracking solutions](./Algorithms/Recursion/)**
 
 ### Dynamic Programming (DP)
 * **Explanation:** A powerful technique for solving complex problems by breaking them down into simpler, overlapping subproblems. It stores the results of subproblems (memoization) to avoid re-calculating them, leading to significant performance gains.
 * **Key Concepts (from my roadmap):** 0/1 Knapsack, Longest Increasing Subsequence (LIS), Fibonacci, DP on Grids.
 * **Approaches:** Memoization (Top-Down) and Tabulation (Bottom-Up).
 * **Advantages:** Drastically reduces computational time from exponential to polynomial (e.g., `O(2^n)` to `O(n^2)`) for many problems.
-* **Implementations:** **[View my Dynamic Programming solutions](./Algorithms/Dynamic-Programming/)**
 
 ### Greedy Algorithms
 * **Explanation:** An algorithmic paradigm that builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit (the "greedy" choice).
 * **Key Concepts (from my roadmap):** Activity Selection, Huffman Encoding.
 * **Advantages:** Simple to design and often very fast (e.g., `O(n log n)`). When a greedy choice property holds, it provides an optimal solution.
-* **Implementations:** **[View my Greedy solutions](./Algorithms/Greedy/)**
-
 ---
 
 ## Practice Platforms
