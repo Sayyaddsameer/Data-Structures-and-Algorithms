@@ -43,6 +43,7 @@ This section contains the fundamental building blocks for organizing and storing
 * **Key Concepts (from my roadmap):** Palindromes, Anagrams, Pattern Matching.
 * **Advantages:** Efficient for storing and manipulating text.
 * **Common Complexities:** (Varies widely by operation)
+
 | Operation | Average Time | Space |
 | :--- | :--- | :--- |
 | Access | O(1) | O(n) |
@@ -57,6 +58,7 @@ This section contains the fundamental building blocks for organizing and storing
 * **Key Concepts (from my roadmap):** Balanced Parentheses, Next Greater Element, Monotonic Stack.
 * **Advantages:** Ideal for managing sequential processes, like function calls (Stack) or task queues (Queue).
 * **Common Complexities (for both):**
+
 | Operation | Average Time | Space |
 | :--- | :--- | :--- |
 | Push / Enqueue | O(1) | O(n) |
@@ -69,6 +71,7 @@ This section contains the fundamental building blocks for organizing and storing
 * **Key Concepts (from my roadmap):** Reversal, Merge, Detect Cycle (Floyd's Algorithm).
 * **Advantages:** Dynamic size. Efficient insertions and deletions `O(1)` (if the node is known).
 * **Common Complexities:**
+
 | Operation | Average Time | Worst Time | Space |
 | :--- | :--- | :--- | :--- |
 | Access | O(n) | O(n) | O(n) |
@@ -82,6 +85,7 @@ This section contains the fundamental building blocks for organizing and storing
 * **Key Concepts (from my roadmap):** Count Frequency, Two Sum, Subarray Sum.
 * **Advantages:** The fastest data structure for average-case lookup, insertion, and deletion.
 * **Common Complexities:**
+
 | Operation | Average Time | Worst Time | Space |
 | :--- | :--- | :--- | :--- |
 | Access | O(1) | O(n) | O(n) |
@@ -95,6 +99,7 @@ This section contains the fundamental building blocks for organizing and storing
 * **Key Concepts (from my roadmap):** Inorder/Preorder/Postorder Traversal, Height, Diameter, Lowest Common Ancestor (LCA).
 * **Advantages:** Efficient searching in ordered data `O(log n)` (for BSTs). Good for representing hierarchical data.
 * **Common Complexities (Balanced BST):**
+
 | Operation | Average Time | Worst Time | Space |
 | :--- | :--- | :--- | :--- |
 | Access | O(log n) | O(n) | O(n) |
@@ -108,6 +113,7 @@ This section contains the fundamental building blocks for organizing and storing
 * **Key Concepts (from my roadmap):** Min/Max Heap, K Largest/Smallest Elements.
 * **Advantages:** The fastest way to find/extract the minimum or maximum element `O(1)` or `O(log n)`.
 * **Common Complexities:**
+
 | Operation | Time | Space |
 | :--- | :--- | :--- |
 | Peek | O(1) | O(n) |
@@ -121,6 +127,7 @@ This section contains the fundamental building blocks for organizing and storing
 * **Advanced Algorithms:** Dijkstra's, Bellman-Ford, Prim’s, Kruskal’s.
 * **Advantages:** The most powerful structure for modeling and solving network-based problems.
 * **Common Complexities (Adjacency List):**
+
 | Operation | Time | Space |
 | :--- | :--- | :--- |
 | Storage | O(V + E) | O(V + E) |
@@ -142,6 +149,7 @@ This section focuses on the "recipes"—the procedures for solving common comput
 * **Key Algorithms:** Binary Search, Merge Sort, Quick Sort.
 * **Advantages:** Sorting enables much faster searching (like Binary Search) and is often a prerequisite for other algorithms.
 * **Common Complexities:**
+
 | Algorithm | Best Time | Average Time | Worst Time | Space |
 | :--- | :--- | :--- | :--- | :--- |
 | **Binary Search** | O(1) | O(log n) | O(log n) | O(1) |
